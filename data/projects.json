@@ -3,19 +3,19 @@
  "projects": [ 	 
   {
    "title": "provisioning-scripts",
-   "section": "devops",
+   "section": "programming",
    "type": "image",
    "href": "https://github.com/santamadaraneilande-ctrl/provisioning-scripts"
   },
   {
    "title": "jenkins-ci-demo",
-   "section": "devops",
+   "section": "programming",
    "type": "image",
    "href": "https://github.com/santamadaraneilande-ctrl/jenkins-ci-demo"
   },
   {
    "title": "portfolio",
-   "section": "devops",
+   "section": "programming",
    "type": "image",
    "href": "https://github.com/santamadaraneilande-ctrl/portfolio"
   },

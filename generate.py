@@ -40,11 +40,11 @@ def render_section(projects,section_id):
 def render_html(data):
     name = esc(data.get("name",""))
     all_projects = data.get("projects", [])
-    devops = [p for p in all_projects if p.get("section") == "devops"]
+    programming = [p for p in all_projects if p.get("section") == "programming"]
     design = [p for p in all_projects if p.get("section") == "design"]
     art = [p for p in all_projects if p.get("section") == "art-3D"]
 
-    devops_html = render_section(devops, "devops-grid")
+    programming_html = render_section(devops, "programming-grid")
     design_html = render_section(design, "design-grid")
     art_html = render_section(art, "art-grid")
 
@@ -67,7 +67,7 @@ def render_html(data):
     </header>
 
     <section class="section">
-        <h2 class="section-title">DevOps</h2>
+        <h2 class="section-title">Programming</h2>
         {devops_html}
     </section>
 

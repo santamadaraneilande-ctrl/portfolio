@@ -90,12 +90,3 @@ body {
     .hero { padding: 64px 6vw 40px; }
     .section { padding: 30px 6vw 40px;}
 }
-
-@media (max-width: 768px) {
-  button, .btn, .portfolio-btn {
-    padding: 14px 24px;
-    font-size: 18px;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}

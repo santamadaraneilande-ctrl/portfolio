@@ -44,7 +44,7 @@ def render_html(data):
     design = [p for p in all_projects if p.get("section") == "design"]
     art = [p for p in all_projects if p.get("section") == "art-3D"]
 
-    programming_html = render_section(devops, "programming-grid")
+    programming_html = render_section(programming, "programming-grid")
     design_html = render_section(design, "design-grid")
     art_html = render_section(art, "art-grid")
 
@@ -68,7 +68,7 @@ def render_html(data):
 
     <section class="section">
         <h2 class="section-title">Programming</h2>
-        {devops_html}
+        {programming_html}
     </section>
 
     <section class="section">

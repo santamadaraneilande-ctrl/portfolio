@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "projects.json"
-OUTPUT_HTML = ROOT / "portfolio.html"
+OUTPUT_HTML = ROOT / "index.html"
 OUTPUT_CSS= ROOT / "style.css"
 
 def load_data():

@@ -8,7 +8,7 @@ Usage:
 """
 import json
 import html
-from pathlib import path
+from pathlib import Path
 
 ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "projects.json"
@@ -20,27 +20,33 @@ def load_data():
         return json.load(f)
 
 def esc(text):
-    return html.escape(str(text)), quote=True)
+    return html.escape(str(text), quote=True)
 
 def render_button(project):
     title = esc(project.get("title", "Untitled"))
     href = esc(project.get("href", "#"))
-    return f'<a class="proj-btn" href="{href}" target="_blank" rel="noopener">{title}</a>'
+    proj_type = project.get("type","image")
+    if proj_type == "video":
+        return f'<a class="proj-btn" href="{href}" target="_blank" rel="noopener">🎬 {title} (YouTube)</a>'
+    else:
+        return f'<a class="proj-btn" href="{href}" target="_blank" rel="noopener">{title}</a>'
 def render_section(projects,section_id):
     if projects:
         buttons = "\n      ".join(render_button(p) for p in projects)
     else:
-        buttons = '<p class="empty-note"> Vēl nav pievienots neviens darbs.</p>'
-    return f'<div class="btn grid" id="{section_id}">\n      {buttons}\n    </div>'
+        buttons = '<p class="empty-note">Vēl nav pievienots neviens darbs.</p>'
+    return f'<div class="btn-grid" id="{section_id}">\n    {buttons}\n</div>'
 
 def render_html(data):
     name = esc(data.get("name",""))
     all_projects = data.get("projects", [])
     devops = [p for p in all_projects if p.get("section") == "devops"]
     design = [p for p in all_projects if p.get("section") == "design"]
+    art = [p for p in all_projects if p.get("section") == "art-3D"]
 
     devops_html = render_section(devops, "devops-grid")
-    devops_html = render_section(design, "design-grid")
+    design_html = render_section(design, "design-grid")
+    art_html = render_section(art, "art-grid")
 
     return f"""<!DOCTYPE html>
 <html lang="lv">
@@ -55,20 +61,25 @@ def render_html(data):
 </head>
 <body>
 
-  <header class="hero">
-    <h1 class="hero-name">Portfolio</h1>
-    <p class="hero-tagline">{name}</p>
-  </header>
+    <header class="hero">
+        <h1 class="hero-name">Portfolio</h1>
+        <p class="hero-tagline">{name}</p>
+    </header>
 
-  <section class="section">
-    <h2 class="section-title">DevOps</h2>
-    {devops_html}
-  </section>
+    <section class="section">
+        <h2 class="section-title">DevOps</h2>
+        {devops_html}
+    </section>
 
-  <section class="section">
-    <h2 class="section-title">Dizains, 3D, Māksla</h2>
-    {design_html}
-  </section>
+    <section class="section">
+        <h2 class="section-title">Dizains</h2>
+        {design_html}
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Art & 3D</h2>
+        {art_html}
+    </section>
 
 </body>
 </html>
@@ -132,7 +143,7 @@ body {
 
 .btn-grid {
     display: grid;
-    grid-template-colums: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 16px;
 }
 
@@ -171,7 +182,7 @@ body {
 def main():
     data = load_data()
     OUTPUT_HTML.write_text(render_html(data), encoding="utf-8")
-    OUPUT_CSS.write_text(CSS, encoding="utf-8")
+    OUTPUT_CSS.write_text(CSS, encoding="utf-8")
     print(f"Uzģenerēts: {OUTPUT_HTML}")
     print(f"Uzģenerēts: {OUTPUT_CSS}")
 

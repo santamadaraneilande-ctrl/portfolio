@@ -1,41 +1,77 @@
 {
-	"name": "Santa Madara Neilande",
-	"projects": [ 
-		{
-			"title": "provisioning-scripts",
-			"section": "devops",
-			"type": "image",
-			"href": "https://github.com/santamadaraneilande-ctrl/provisioning-scripts"
-		},
-		{
-			"title": "jenkins-ci-demo",
-			"section": "devops",
-			"type": "image",
-			"href": "https://github.com/santamadaraneilande-ctrl/jenkins-ci-demo"
-		},
-		{
-			"title": "portfolio",
-			"section": "devops",
-			"type": "image",
-			"href": "https://github.com/santamadaraneilande-ctrl/portfolio"
-		},
-		{
-			"title": "Illustracijas",
-			"section": "art/3D",
-			"type": "image",
-			"href": "https://santamadaraneilande.wordpress.com/2025/05/31/ilustracijas/"
-		},
-		{
-			"title": "Video piemēri",
-			"section": "art/3D",
-			"type": "image",
-			"href": "https://santamadaraneilande.wordpress.com/2024/12/25/split-screen-video/"
-		},
-		{
-			"title": "Dizaina darbs",
-			"section": "design",
-			"type": "image",
-			"href": "https://santamadaraneilande.wordpress.com/2020/09/28/dizaina-darbi/"
-		}
-	]
+ "name": "Santa Madara Neilande",
+ "projects": [ 	 
+  {
+   "title": "provisioning-scripts",
+   "section": "devops",
+   "type": "image",
+   "href": "https://github.com/santamadaraneilande-ctrl/provisioning-scripts"
+  },
+  {
+   "title": "jenkins-ci-demo",
+   "section": "devops",
+   "type": "image",
+   "href": "https://github.com/santamadaraneilande-ctrl/jenkins-ci-demo"
+  },
+  {
+   "title": "portfolio",
+   "section": "devops",
+   "type": "image",
+   "href": "https://github.com/santamadaraneilande-ctrl/portfolio"
+  },
+  {
+   "title": "Illustration",
+   "section": "art-3D",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2025/05/31/ilustracijas/"
+  },
+  {
+   "title": "Video",
+   "section": "art-3D",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2024/12/25/split-screen-video/"
+  },
+  {
+   "title": "Design",
+   "section": "design",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2020/09/28/dizaina-darbi/"
+  },
+  {
+   "title": "3D dragon udemy",
+   "section": "art-3D",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2020/01/01/bahamuta-valstiba/"
+  },
+  {
+   "title": "3D Enviroment game udemy",
+   "section": "art-3D",
+   "type": "video",
+   "href": "https://www.youtube.com/watch?v=23Ps7ryTFQE"
+  },
+  {
+   "title": "3D green city udemy",
+   "section": "art-3D",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2020/01/03/zala-pilseta/"
+  },
+  {
+   "title": "Galaxy",
+   "section": "art-3D",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2019/12/31/galaktikas-cels/"
+  },
+  {
+   "title": "Game Gods udemy",
+   "section": "art-3D",
+   "type": "image",
+   "href": "https://santamadaraneilande.wordpress.com/2020/01/02/masa-un-dieviete/"
+  },
+  {
+   "title": "Glass city",
+   "section": "art-3D",
+   "type": "video",
+   "href": "https://www.youtube.com/watch?v=MhY0C1VSXJg"
+  }
+ ]
 }

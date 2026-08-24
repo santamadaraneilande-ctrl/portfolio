@@ -20,28 +20,82 @@
    "href": "https://github.com/santamadaraneilande-ctrl/portfolio"
   },
   {
-   "title": "Illustration",
-   "section": "art-3D",
-   "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2025/05/31/ilustracijas/"
+    "title": "Elf illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/pabeigselfs.png"
   },
   {
-   "title": "Video",
-   "section": "art-3D",
-   "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2024/12/25/split-screen-video/"
+    "title": "Elfen lady illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/elven.png"
   },
   {
-   "title": "Design",
+    "title": "Red head illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/redhead.png"
+  },
+  {
+    "title": "Pirate illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/pirate.png"
+  },
+  {
+    "title": "Cat woman illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/catgirl.png"
+  },
+  {
+    "title": "Human muscles illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/cilveks-skelets.png"
+  },
+  {
+    "title": "Pigman illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/cukcilvekspabeigtaversija.png"
+  },
+  {
+    "title": "ELf with yellow hair illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/elfmaleyellowhair.png"
+  },
+  {
+    "title": "Warrior",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/warrior-1.png"
+  },
+  {
+    "title": "Snake design illustration",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/Snake.png"
+  },
+  {
+    "title": "Design illustration Red",
+    "section": "art-3D",
+    "type": "image",
+    "href": "images/Red.png"
+  },
+  {
+   "title": "Brochure first-side",
    "section": "design",
    "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2020/09/28/dizaina-darbi/"
+   "href": "images/brochure.png"
   },
   {
    "title": "3D dragon udemy",
    "section": "art-3D",
-   "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2020/01/01/bahamuta-valstiba/"
+   "type": "video",
+   "href": "https://www.youtube.com/watch?v=BURVL35ZmCU"
   },
   {
    "title": "3D Enviroment game udemy",
@@ -52,26 +106,50 @@
   {
    "title": "3D green city udemy",
    "section": "art-3D",
-   "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2020/01/03/zala-pilseta/"
+   "type": "video",
+   "href": "https://www.youtube.com/watch?v=OQYY___jlO0"
   },
   {
    "title": "Galaxy",
    "section": "art-3D",
-   "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2019/12/31/galaktikas-cels/"
+   "type": "video",
+   "href": "https://www.youtube.com/watch?v=ZyhvHQa6T0s&t=1s"
   },
   {
    "title": "Game Gods udemy",
    "section": "art-3D",
-   "type": "image",
-   "href": "https://santamadaraneilande.wordpress.com/2020/01/02/masa-un-dieviete/"
+   "type": "video",
+   "href": "https://www.youtube.com/watch?v=_T0LJ6hnNiw&t=2s"
   },
   {
    "title": "Glass city",
    "section": "art-3D",
    "type": "video",
    "href": "https://www.youtube.com/watch?v=MhY0C1VSXJg"
+  },
+  {
+   "title": "Brochure other side",
+   "section": "design",
+   "type": "image",
+   "href": "images/brochure2.png"
+  },
+  {
+   "title": "Urban dictionary",
+   "section": "design",
+   "type": "image",
+   "href": "images/urban.png"
+  },
+  {
+   "title": "Elven poster",
+   "section": "design",
+   "type": "image",
+   "href": "images/Poster.png"
+  },
+  {
+   "title": "Engure coast design",
+   "section": "design",
+   "type": "image",
+   "href": "images/coast.png"
   }
  ]
 }

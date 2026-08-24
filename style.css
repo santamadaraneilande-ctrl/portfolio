@@ -12,14 +12,23 @@ body {
     margin:0;
     color: var(--hero-text);
     font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+    position: relative;
+}
+body::before {
+    content:"";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background-image:
         linear-gradient(var(--overlay), var(--overlay)),
         url('images/background.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    z-index: -1;
 }
 
 .hero {

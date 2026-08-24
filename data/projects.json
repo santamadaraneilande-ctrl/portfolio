@@ -1,0 +1,41 @@
+{
+	"name": "Santa Madara Neilande",
+	"projects": [ 
+		{
+			"title": "provisioning-scripts",
+			"section": "devops",
+			"type": "image",
+			"href": "https://github.com/santamadaraneilande-ctrl/provisioning-scripts"
+		},
+		{
+			"title": "jenkins-ci-demo",
+			"section": "devops",
+			"type": "image",
+			"href": "https://github.com/santamadaraneilande-ctrl/jenkins-ci-demo"
+		},
+		{
+			"title": "portfolio",
+			"section": "devops",
+			"type": "image",
+			"href": "https://github.com/santamadaraneilande-ctrl/portfolio"
+		},
+		{
+			"title": "Illustracijas",
+			"section": "art/3D",
+			"type": "image",
+			"href": "https://santamadaraneilande.wordpress.com/2025/05/31/ilustracijas/"
+		},
+		{
+			"title": "Video piemēri",
+			"section": "art/3D",
+			"type": "image",
+			"href": "https://santamadaraneilande.wordpress.com/2024/12/25/split-screen-video/"
+		},
+		{
+			"title": "Dizaina darbs",
+			"section": "design",
+			"type": "image",
+			"href": "https://santamadaraneilande.wordpress.com/2020/09/28/dizaina-darbi/"
+		}
+	]
+}

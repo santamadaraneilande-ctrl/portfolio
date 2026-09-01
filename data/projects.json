@@ -150,6 +150,12 @@
    "section": "design",
    "type": "image",
    "href": "images/coast.png"
+  },
+  {
+   "title": "Scaled woman",
+   "section": "art-3D",
+   "type": "image",
+   "href": "Scalewoman.png"
   }
  ]
 }

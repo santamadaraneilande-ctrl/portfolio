@@ -20,12 +20,6 @@
    "href": "https://github.com/santamadaraneilande-ctrl/portfolio"
   },
   {
-    "title": "Elf illustration",
-    "section": "art-3D",
-    "type": "image",
-    "href": "images/pabeigselfs.png"
-  },
-  {
     "title": "Elfen lady illustration",
     "section": "art-3D",
     "type": "image",
@@ -44,28 +38,10 @@
     "href": "images/pirate.png"
   },
   {
-    "title": "Cat woman illustration",
-    "section": "art-3D",
-    "type": "image",
-    "href": "images/catgirl.png"
-  },
-  {
-    "title": "Human muscles illustration",
-    "section": "art-3D",
-    "type": "image",
-    "href": "images/cilveks-skelets.png"
-  },
-  {
     "title": "Pigman illustration",
     "section": "art-3D",
     "type": "image",
     "href": "images/cukcilvekspabeigtaversija.png"
-  },
-  {
-    "title": "ELf with yellow hair illustration",
-    "section": "art-3D",
-    "type": "image",
-    "href": "images/elfmaleyellowhair.png"
   },
   {
     "title": "Warrior",
@@ -78,12 +54,6 @@
     "section": "art-3D",
     "type": "image",
     "href": "images/Snake.png"
-  },
-  {
-    "title": "Design illustration Red",
-    "section": "art-3D",
-    "type": "image",
-    "href": "images/Red.png"
   },
   {
    "title": "Brochure first-side",
@@ -140,22 +110,10 @@
    "href": "images/urban.png"
   },
   {
-   "title": "Elven poster",
-   "section": "design",
-   "type": "image",
-   "href": "images/Poster.png"
-  },
-  {
    "title": "Engure coast design",
    "section": "design",
    "type": "image",
    "href": "images/coast.png"
   },
-  {
-   "title": "Scaled woman",
-   "section": "art-3D",
-   "type": "image",
-   "href": "images/Scalewoman.png"
-  }
  ]
 }

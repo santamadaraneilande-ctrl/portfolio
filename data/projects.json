@@ -44,12 +44,6 @@
     "href": "images/cukcilvekspabeigtaversija.png"
   },
   {
-    "title": "Snake design illustration",
-    "section": "art-3D",
-    "type": "image",
-    "href": "images/Snake.png"
-  },
-  {
    "title": "Brochure first-side",
    "section": "design",
    "type": "image",
@@ -150,6 +144,12 @@
    "section": "design",
    "type": "image",
    "href": "images/Football.png"
+  },
+  {
+   "title": "Snake banner",
+   "section": "design",
+   "type": "image",
+   "href": "images/Banner snake.png"
   }
  ]
 }
